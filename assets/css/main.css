@@ -6020,3 +6020,26 @@ section,
     cursor: pointer !important;
 }
 
+.bg-transparent-list,
+.bg-transparent-list .list-group-item {
+    background-color: transparent !important; /* ทำให้พื้นหลังโปร่งใส */
+    border: none !important; /* มั่นใจว่าไม่มีเส้นขอบ */
+}
+
+.bg-success, .btn-success {
+    background-color: var(--accent-color) !important;
+}
+
+.text-success {
+    color: var(--accent-color) !important;
+}
+
+.btn-success {
+    background-color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
+}
+
+.border-success {
+    --bs-border-opacity: 1;
+    border-color: var(--accent-color) !important;
+}
